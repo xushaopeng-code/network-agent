@@ -28,7 +28,7 @@ public class NetworkAgentDemo {
         toolkit.registerTool(new NetworkTools());
 
         ReActAgent agent = ReActAgent.builder()
-                .name("NetHelper++++")
+//                .name("NetHelper++++")
 //                .sysPrompt("你是一个网络运维助手，可以使用工具排查网络连通性问题，"
 //                        + "回答时请说明工具检测到的结果并给出简要建议。")
                 .model(DashScopeChatModel.builder()
